@@ -116,7 +116,7 @@ header .headerbox3 .wrapper ul li:hover {
 /* sectionbox1 */
 section .sectionbox1 .wrapper{
     position: relative;
-    background-image: url(./bg1.JPG);
+    background-image: url(./bg1.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
