@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0 2%;
+}
+/* header */
+
+/* headerbox1 */
+.headerbox1 .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerbox1 .wrapper .icons {
+    display: flex;
+    flex-direction: row;
+}
+.headerbox1 .wrapper .icons a{
+    padding: 5px;
+}
+.headerbox1 .wrapper .icons .iconbg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgray;
+    transition-duration: 0.5s;
+}
+.headerbox1 .wrapper .icons .iconbg:hover{
+    background-color: #ee802f;
+}
+.headerbox1 .wrapper .icons .iconbg i{
+    color: white;
+    font-size: 25px;
+}
+.headerbox1 .wrapper .list ul {
+    display: flex;
+    flex-direction: row;
+}
+.headerbox1 .wrapper .list ul li{
+    list-style-type: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+.headerbox1 .wrapper .list ul li a:hover{
+    color:black
+}
+
+/* headerbox2 */
+header .headerbox2 {
+    padding: 2%;
+    background-color: #ebebeb;
+}
+header .headerbox2 .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .headerbox2 .part1 img {
+    width: 150px;
+}
+header .headerbox2 .part2 {
+    display: flex;
+}
+header .headerbox2 .part2 .searchbox {
+    height: 40px;
+    padding: 0 5px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+header .headerbox2 .part2 .searchbutton {
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    border-left: 0;
+    width: 80px;
+    background-color: #97455f;
+    color: white;
+    transition-duration: 0.5s;
+}
+header .headerbox2 .part2 .searchbutton:hover {
+    background-color: #6a3144;
+}
+
+/* headerbox3 */
+header .headerbox3 .wrapper{
+    background-color: #97455f;
+}
+header .headerbox3 .wrapper ul {
+    display: flex;
+}
+header .headerbox3 .wrapper ul li {
+    padding: 2% 1.5%;
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+}
+header .headerbox3 .wrapper ul li a {
+    color: white;
+}
+header .headerbox3 .wrapper ul li:hover {
+    background-color: #6a3144;
+}
+
+/* section */
+
+/* sectionbox1 */
+section .sectionbox1 .wrapper{
+    position: relative;
+    background-image: url(bg1.JPG);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 60px 20px;
+}
+section .sectionbox1 .wrapper .text {
+    position: absolute;
+    padding: 1%;
+    background-color: #adadad;
+    width: 430px;
+    right: 25px;
+    bottom: 35px;
+    color: #383838;
+    border-radius: 15px;
+}
+section .dotbox {
+    display: flex;
+    justify-content: center;
+
+}
+section .dots {
+    margin: 4px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #333333;
+}
+section .dot {
+    margin: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border:2px solid #333333;
+}
+
+/* sectionbox2 */
+section .sectionbox2 .wrapper .title {
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+section .sectionbox2 .wrapper .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+section .sectionbox2 .wrapper .content .part1{
+    width: 33.3333%;
+}
+section .sectionbox2 .wrapper .content .part1 .img {
+    padding: 20px;
+    float: left;
+}
+section .sectionbox2 .wrapper .content .part1 .box1{
+    padding: 20px;
+}
+section .sectionbox2 .wrapper .content .part1 .box1 p{
+    color: #999999;
+}
+section .sectionbox2 .wrapper .content .part1 .box1 h4{
+    color: #6a3144;
+}
+
+/* sectionbox3 */
+section .sectionbox3 .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section .sectionbox3 .wrapper h3{
+    display: flex;
+    justify-content: center;
+    color: #333333;
+}
+section .sectionbox3 .wrapper h4{
+    color: #333333;
+    padding: 20px 0;
+}
+section .sectionbox3 .wrapper a{
+    color: #6a3144;
+    padding: 20px 0;
+}
+section .sectionbox3 .wrapper p{
+    color: #999999;
+    padding: 20px 0;
+}
+section .sectionbox3 .wrapper .part1 {
+    width: 50%;
+}
+section .sectionbox3 .wrapper .part1 .img {
+    padding: 20px;
+    float: left;
+}
+section .sectionbox3 .wrapper .part1 img{
+    width: 150px;
+}
+
+section .sectionbox3 .wrapper .part1 .box1 {
+    padding: 20px;
+}
+section .sectionbox3 .wrapper .part2 {
+    width: 50%;
+}
+section .sectionbox3 .wrapper .part2 i{
+    padding-right: 15px;
+    float: left;
+    color: #d4d4d4;
+    font-size: 100px;
+}
+section .sectionbox3 .wrapper .part2 p {
+    float: left;
+}
+section .sectionbox3 .wrapper .part2 .part22 {
+    padding: 30px 20px;
+}
+section .sectionbox3 .wrapper .part2 .part23 {
+    padding: 20px;
+}
+section .sectionbox3 .wrapper .part3 {
+    margin: 20px 0;
+    width: 80%;
+    padding: 20px 40px;
+    background-color: #97455f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+section .sectionbox3 .wrapper .part3 .box1 p{
+    color: white;
+    font-size: 18px;
+}
+section .sectionbox3 .wrapper .part3 .box1 h1{
+    font-size: 36px;
+    color: white;
+}
+section .sectionbox3 .wrapper .part3 .box2 p {
+    width: 400px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    font-size: 35px;
+    font-family: fangsong;
+    color: #97455f;
+    transition-duration: 0.5s;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .sectionbox3 .wrapper .part3 .box2 p:hover {
+    background-color: lightgray;
+}
+
+/* sectionbox4 */
+section .sectionbox4 {
+    padding: 10px;
+    background-color: #ebebeb;
+}
+section .sectionbox4 .wrapper {
+    display: flex;
+}
+section .sectionbox4 .part1{
+    width: 50%;
+}
+section .sectionbox4 .part1 .title {
+    padding: 10px;
+    color: #333333;
+}
+section .sectionbox4 .part1 .box1 img{
+    padding:0 20px 20px 0;
+    float: left;
+    width: 100px;
+}
+section .sectionbox4 .part1 .box1 {
+    padding: 20px;
+}
+section .sectionbox4 .part1 .box1 h5 {
+    color: #97455f;
+    padding: 9px 0;
+}
+section .sectionbox4 .part1 .box1 p {
+   color: #999999;
+}
+section .sectionbox4 .part2{
+    padding: 0 30px;
+    width: 25%;
+}
+section .sectionbox4 .part2 .title {
+    color: #333333;
+    padding: 10px;
+}
+section .sectionbox4 .part2 address {
+    font-size: 14px;
+    color: #999999;
+    padding: 10px;
+}
+section .sectionbox4 .part2 .contact {
+    font-size: 14px;
+    color: #999999;
+    padding: 10px;
+}
+section .sectionbox4 .part2 .contact .email {
+    color: #97455f;
+}
+section .sectionbox4 .part2 .time {
+    font-size: 14px;
+    color: #999999;
+    padding: 10px;
+}
+section .sectionbox4 .part3{
+    padding: 10px;
+    width: 25%;
+}
+section .sectionbox4 .part3 caption{
+    color: #333333;
+}
+section .sectionbox4 .part3 input {
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 5px 0;
+}
+section .sectionbox4 .part3 button {
+    padding: 5px;
+    background-color: #97455f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition-duration: 0.5s;
+}
+section .sectionbox4 .part3 button:hover {
+    background-color: #6a3144;
+}
+section .sectionbox4 .part3 textarea {
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* footer */
+footer .footerbox {
+    background-color: #ebebeb;
+}
+
+footer .footerbox .wrapper {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #999999;
+}
+
+@media(max-width:1280px){
+    section .sectionbox3 .wrapper .part3 .box1 h1 {
+        font-size: 30px;
+    }
+
+}
+@media(max-width:1024px){
+    section .sectionbox3 .wrapper .part3{
+        width: 100%;
+    } 
+    section .sectionbox3 .wrapper .part3 .box1 h1{
+        font-size: 32px;
+    }  
+    section .sectionbox3 .wrapper .part3 .box2 p{
+        width: 350px;
+        font-size: 26px;
+    }
+    section .sectionbox3 .wrapper .part1 img {
+        width: 100px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .box1 p {
+        font-size: 15px;
+    }
+    section .sectionbox3 .wrapper p {
+        font-size: 12px;
+    }
+}
+@media(max-width:768px){
+    section .sectionbox3 .wrapper .part1 img {
+        width: 100px;
+    }
+    section .sectionbox3 .wrapper p {
+        font-size: 9px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .box1 h4 {
+        font-size: 12px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .box1 p {
+        font-size: 10px;
+    }
+    header .headerbox3 .wrapper ul li {
+        font-size: 12px;
+    }
+    section .sectionbox3 .wrapper h3 {
+        font-size: 15px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 h1{
+        font-size: 23px;
+    }
+    section .sectionbox3 .wrapper .part3 .box2 p {
+        width: 260px;
+        font-size: 22px;
+        height: 60px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 p {
+        font-size: 14px;
+    }
+    section .sectionbox4 .part1 .box1 {
+        padding: 10px;
+    }
+    section .sectionbox4 .part1 .box1 img {
+        width: 80px;
+    }
+    section .sectionbox4 .part1 .box1 p{
+        font-size: 12px;
+    }
+    section .sectionbox4 .part2{
+        padding: 0;
+    }
+    section .sectionbox4 .part2 .contact {
+        font-size: 12px;
+    }
+    section .sectionbox4 .part2 .time{
+        font-size: 12px;
+    }
+    section .sectionbox4 .part2 address{
+        font-size: 12px;
+    }
+    section .sectionbox4 .part3 textarea {
+        width: 160px;
+    }
+    section .sectionbox4 .part3 input {
+        width: 160px;
+    }
+    footer .footerbox div{
+        font-size: 12px;
+    }
+    section .sectionbox1 .wrapper{
+        height: 300px;
+    }
+}
+@media(max-width:476px){
+    .headerbox1 .wrapper .icons .iconbg {
+        width: 25px;
+        height: 25px;
+    }
+    .headerbox1 .wrapper .icons .iconbg i {
+        font-size: 16px;
+    }
+    .headerbox1 .wrapper .list ul li{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .headerbox2 .wrapper .part1 img {
+        width: 90px;
+    }
+    header .headerbox2 .part2 .searchbox {
+        width: 200px;
+        height: 35px;
+    }
+    header .headerbox2 .part2 .searchbutton{
+        height: 35px;
+        width: 70px;
+    }
+    header .headerbox3 .wrapper ul li {
+        font-size: 9px;
+    }
+    section .sectionbox1 .wrapper {
+        height: 150px;
+        margin: 10px 20px;
+    }
+    section .sectionbox1 .wrapper .text {
+        font-size: 10px;
+        width: 215px;
+        right: 15px;
+        bottom: 15px;
+        padding: 2%;
+    }
+    section .sectionbox1 .wrapper .text h1 {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    section .sectionbox2 .wrapper .content .part1 {
+        width: 50%;
+        padding: 15px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .img {
+        padding: 10px;
+    }
+    section .sectionbox2 .wrapper .content .part1 img {
+        width: 50px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .box1 {
+        padding: 0;
+    }
+    section .sectionbox3 .wrapper h3 {
+        font-size: 10px;
+    }
+    section .sectionbox3 .wrapper .part1 img{
+        width: 80px;
+    }
+    section .sectionbox3 .wrapper .part1{
+        width: 100%;
+    }
+    section .sectionbox3 .wrapper p {
+        font-size: 10px;
+        padding: 5px;
+    }
+    section .sectionbox3 .wrapper h5 a{
+        font-size: 10px;
+        padding: 0;
+    }
+    section .sectionbox3 .wrapper h4 {
+        padding: 10px;
+    }
+    section .sectionbox3 .wrapper .part1 .box1 {
+        padding: 0px;
+    }
+    section .sectionbox3 .wrapper .part1 .img {
+        padding: 15px;
+    }
+    section .sectionbox3 .wrapper .part2 {
+        width: 100%;
+    }
+    section .sectionbox3 .wrapper .part2 i{
+        font-size: 70px;
+        padding: 15px;
+    }
+    section .sectionbox3 .wrapper .part2 p {
+        padding: 5px;
+        float: none;
+    }
+    section .sectionbox3 .wrapper .part2 .part22 {
+        padding: 0px;
+    }
+    section .sectionbox3 .wrapper .part2 .part23{
+        padding: 0;
+    }
+    section .sectionbox3 .wrapper .part3 {
+        padding: 5px 10px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 h1 {
+        font-size: 15px;
+        padding: 5px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 p {
+        font-size: 10px;
+    }
+    section .sectionbox3 .wrapper .part3 .box2 p {
+        width: 170px;
+        font-size: 15px;
+        height: 40px
+    }
+    section .sectionbox4 .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .sectionbox4 .part1 {
+        width: 100%;
+    }
+    section .sectionbox4 .part1 .box1 img {
+        padding: 0 10px 10px 0;
+        width: 70px;
+    }
+    section .sectionbox4 .part2 {
+        padding-bottom: 10px;
+        width: 50%;
+    }
+    section .sectionbox4 .part3 {
+        padding: 10px;
+        width: 50%;
+    }
+    section .sectionbox4 .part3 input {
+        width: 190px;
+    }
+    section .sectionbox4 .part3 textarea{
+        width: 190px;
+        height: 90px;
+    }
+    footer .footerbox div {
+        font-size: 10px;
+    }
+}
+
+
+@media(max-width:360px){
+    .headerbox1 .wrapper .icons .iconbg {
+        width: 17px;
+        height: 17px;
+    }
+    .headerbox1 .wrapper .icons a {
+        padding: 3px;
+    }
+    .headerbox1 .wrapper .icons .iconbg i {
+        font-size: 9px;
+    }
+    .headerbox1 .wrapper .list ul li {
+        font-size: 9px;
+        padding: 4px;
+    }
+    .headerbox2 .wrapper .part1 img {
+        width: 60px;
+    }
+    header .headerbox2 .part2 .searchbox {
+        width: 140px;
+        height: 25px;
+        font-size: 10px;
+    }
+    header .headerbox2 .part2 .searchbutton {
+        height: 25px;
+        width: 55px;
+        font-size: 10px;
+    }
+    header .headerbox3 .wrapper ul li {
+        font-size: 6px;
+    }
+    section .sectionbox1 .wrapper {
+        height: 120px;
+        margin: 8px 10px;
+    }
+    section .sectionbox1 .wrapper .text {
+        font-size: 7px;
+        width: 130px;
+        right: 10px;
+        bottom: 10px;
+        padding: 3%;
+    }
+    section .dotbox .dots{
+        width: 5px;
+        height: 5px;
+    }
+    section .dotbox .dot{
+        width: 5px;
+        height: 5px;
+    }
+    section .sectionbox2 .title h4{
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    section .sectionbox2 .wrapper .content .part1 {
+        width: 100%;
+        padding: 5px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .box1 p {
+        padding: 10px;
+    }
+    section .sectionbox3 .wrapper .part1 img {
+        width: 60px;
+    }
+    section .sectionbox3 .wrapper .part1 .img {
+        padding-bottom: 80px;
+    }
+    section .sectionbox3 .wrapper .part2 i {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+    section .sectionbox3 .wrapper h3 {
+        padding-top: 7px;
+    }
+    section .sectionbox3 .wrapper .part3 .box2 p {
+        width: 70px;
+        font-size: 12px;
+        height: 70px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 18px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 h1 {
+        font-size: 13px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 p {
+        font-size: 12px;
+    }
+    section .sectionbox3 .wrapper .part3 {
+        width: 94%;
+    }
+    section .sectionbox4 .part1 .box1 img{
+        padding-bottom: 50px;
+    }
+    section .sectionbox4 .part1 .box1 h5 {
+        padding-bottom: 10px;
+    }
+    section .sectionbox4 .part3 input {
+        width: 135px;
+    }
+    section .sectionbox4 .part3 textarea {
+        width: 135px;
+    }
+    section .sectionbox4 .part2 .title {
+        padding-bottom: 0;
+    }
+    section .sectionbox4 .part2 .time {
+        font-size: 9px;
+    }
+    footer .footerbox div {
+        font-size: 7px;
+    }
+}
+
+
+
+@media(max-width:320px){
+    .headerbox1 .wrapper .icons .iconbg {
+        width: 17px;
+        height: 17px;
+    }
+    .headerbox1 .wrapper .icons a {
+        padding: 3px;
+    }
+    .headerbox1 .wrapper .icons .iconbg i {
+        font-size: 9px;
+    }
+    .headerbox1 .wrapper .list ul li {
+        font-size: 9px;
+        padding: 4px;
+    }
+    .headerbox2 .wrapper .part1 img {
+        width: 60px;
+    }
+    header .headerbox2 .part2 .searchbox {
+        width: 140px;
+        height: 25px;
+        font-size: 10px;
+    }
+    header .headerbox2 .part2 .searchbutton {
+        height: 25px;
+        width: 55px;
+        font-size: 10px;
+    }
+    header .headerbox3 .wrapper ul li {
+        font-size: 6px;
+    }
+    section .sectionbox1 .wrapper {
+        height: 120px;
+        margin: 8px 10px;
+    }
+    section .sectionbox1 .wrapper .text {
+        font-size: 7px;
+        width: 130px;
+        right: 10px;
+        bottom: 10px;
+        padding: 3%;
+    }
+    section .dotbox .dots{
+        width: 5px;
+        height: 5px;
+    }
+    section .dotbox .dot{
+        width: 5px;
+        height: 5px;
+    }
+    section .sectionbox2 .title h4{
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+    section .sectionbox2 .wrapper .content .part1 {
+        width: 100%;
+        padding: 5px;
+    }
+    section .sectionbox2 .wrapper .content .part1 .box1 p {
+        padding: 10px;
+    }
+    section .sectionbox3 .wrapper .part1 img {
+        width: 60px;
+    }
+    section .sectionbox3 .wrapper .part1 .img {
+        padding-bottom: 80px;
+    }
+    section .sectionbox3 .wrapper .part2 i {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+    section .sectionbox3 .wrapper h3 {
+        padding-top: 7px;
+    }
+    section .sectionbox3 .wrapper .part3 .box2 p {
+        width: 70px;
+        font-size: 12px;
+        height: 70px;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 18px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 h1 {
+        font-size: 13px;
+    }
+    section .sectionbox3 .wrapper .part3 .box1 p {
+        font-size: 12px;
+    }
+    section .sectionbox3 .wrapper .part3 {
+        width: 94%;
+    }
+    section .sectionbox4 .part1 .box1 img{
+        padding-bottom: 50px;
+    }
+    section .sectionbox4 .part1 .box1 h5 {
+        padding-bottom: 10px;
+    }
+    section .sectionbox4 .part3 input {
+        width: 135px;
+    }
+    section .sectionbox4 .part3 textarea {
+        width: 135px;
+    }
+    section .sectionbox4 .part2 .title {
+        padding-bottom: 0;
+    }
+    section .sectionbox4 .part2 .time {
+        font-size: 9px;
+    }
+    footer .footerbox div {
+        font-size: 7px;
+    }
+}
